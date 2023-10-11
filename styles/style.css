@@ -107,9 +107,8 @@ nav a {
     background-color: #00B172;
     color: white;
     display: flex;
-   
     justify-content: space-around;
-    padding: 20px;
+    padding: 40px;
     position: relative;
     
 }
@@ -129,6 +128,24 @@ nav a {
 #text-container {
     width: 250px;
     margin-left: 0px;
+}
+
+#text-container h3 {
+    width: 350px;
+    text-decoration: underline;
+}
+
+#text-container h4{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#text-container p {
+    font-weight: lighter;
+    font-size: 0.7em;
+    margin-top: 0px;
+    width: 200px;
 }
 
 
